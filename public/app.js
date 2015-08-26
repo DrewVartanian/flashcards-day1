@@ -8,10 +8,6 @@ app.controller('FlashCardController',function($scope){
     $scope.answered=true;
     $scope.answeredCorrectly=answer.correct;
   };
-
-  $scope.init=function(flashCard){
-    $scope.flashCard=flashCard;
-  };
 });
 
 app.controller('MainController',function($scope){
